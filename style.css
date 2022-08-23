@@ -1,0 +1,158 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+/* banner section */
+.banner {
+    background-image: url("images/donation13.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    text-align: center;
+    padding: 100px 200px 100px 200px;
+
+}
+
+h1 {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+}
+
+p {
+    color: gainsboro;
+    font-size: 16px;
+}
+
+button {
+    background-color: #2B9088;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    border-radius: 2px;
+    border: none;
+    padding: 10px 15px;
+
+}
+
+/* Donate Today section */
+.donate-today-area {
+    text-align: center;
+    padding: 50px 5%;
+}
+
+h2 {
+    color: #121212;
+    font-size: 40px;
+}
+
+.donate-today-area p {
+    color: #707070;
+    font-size: 16px;
+
+}
+
+.donation-amount {
+    display: flex;
+    justify-content: center;
+
+}
+
+.donation-amount div {
+
+    color: #707070;
+    font-weight: 700;
+    font-size: 15px;
+    background-color: #FAFAFA;
+    padding: 20px;
+    margin: 5px;
+}
+
+#amount-200 {
+    background: #FFEEEE;
+    border: 2px solid #FF5959;
+    border-radius: 5px;
+}
+
+input {
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid #DADADA;
+    font-size: 18px color;
+    color: #B3B3B3;
+    text-align: center;
+    width: 500px;
+    margin-bottom: 15px;
+
+}
+
+/* donation plan section */
+.donate-plan-area {
+    text-align: center;
+    padding: 50px 10%;
+}
+
+.donate-plan-area p {
+    color: #707070;
+    font-size: 16px;
+}
+
+.donation-plan {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+
+
+}
+
+
+
+#food-donation {
+    background: rgba(79, 157, 166, 0.1);
+    border-radius: 5px;
+    text-align: left;
+    padding: 20px 20px;
+    height: 150px;
+    width: 200px;
+
+}
+
+.donation-plan p {
+    font-size: 8px;
+
+}
+
+.donation-plan h3 {
+    font-size: 12px;
+
+
+}
+
+.donation-plan img {
+    height: 50px;
+    width: 50px;
+
+
+}
+
+#shelter-donation {
+    background: rgba(255, 89, 89, 0.1);
+    border-radius: 5px;
+    text-align: left;
+    padding: 20px 20px;
+    height: 150px;
+    width: 200px;
+}
+
+#education-donation {
+    background-color: rgb(255, 244, 214);
+    border-radius: 5px;
+    text-align: left;
+    padding: 20px 20px;
+    height: 150px;
+    width: 200px;
+}
