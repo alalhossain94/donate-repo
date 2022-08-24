@@ -29,7 +29,7 @@ p {
 }
 
 button {
-    background-color: #2B9088;
+    background-color: #FF5959;
     color: #FFFFFF;
     font-weight: 400;
     font-size: 16px;
@@ -47,7 +47,8 @@ button {
 
 h2 {
     color: #121212;
-    font-size: 40px;
+    font-size: 30px;
+    font-weight: 700;
 }
 
 .donate-today-area p {
@@ -59,6 +60,7 @@ h2 {
 .donation-amount {
     display: flex;
     justify-content: center;
+    margin-bottom: 30px;
 
 }
 
@@ -68,7 +70,7 @@ h2 {
     font-weight: 700;
     font-size: 15px;
     background-color: #FAFAFA;
-    padding: 20px;
+    padding: 30px;
     margin: 5px;
 }
 
@@ -78,11 +80,11 @@ h2 {
     border-radius: 5px;
 }
 
-input {
+#input1 {
     border: 0;
     outline: 0;
     border-bottom: 1px solid #DADADA;
-    font-size: 18px color;
+    font-size: 18px;
     color: #B3B3B3;
     text-align: center;
     width: 500px;
@@ -171,10 +173,7 @@ input {
     text-align: left;
 }
 
-.half-width h2 {
-    font-size: 35px;
-    font-weight: 700;
-}
+
 
 .half-width p {
     font-size: 12px;
@@ -201,10 +200,7 @@ input {
     text-align: left;
 }
 
-.half-width h2 {
-    font-size: 35px;
-    font-weight: 700;
-}
+
 
 .half-width p {
     font-size: 12px;
@@ -215,4 +211,48 @@ input {
 .half-width img {
     height: 300px;
     width: 400px;
+}
+
+/* get-update-area */
+.get-update-area {
+    text-align: center;
+}
+
+.get-update-area p {
+    font-size: 16px;
+    color: #707070;
+}
+
+.form {
+    background-color: #FFF4D6;
+    height: 20px;
+    width: 500px;
+    text-align: center;
+    padding: 60px;
+    margin: 50px 370px;
+}
+
+#input2 {
+    outline: 0;
+    border: 0;
+    color: D9D9D9;
+    background-color: rgba(194, 187, 187, 0.788);
+    padding: 12px 10px 12px 5px;
+    border-radius: 2px;
+
+
+
+}
+
+/* Footer Style */
+.footer {
+    background-color: #0B0D17;
+    text-align: center;
+    padding: 5px 0;
+}
+
+.footer h2 {
+    color: #FF5959;
+    font-style: italic;
+
 }
