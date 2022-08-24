@@ -94,6 +94,8 @@ input {
 .donate-plan-area {
     text-align: center;
     padding: 50px 10%;
+
+
 }
 
 .donate-plan-area p {
@@ -106,23 +108,22 @@ input {
     justify-content: center;
     justify-content: space-around;
 
-
 }
-
-
 
 #food-donation {
     background: rgba(79, 157, 166, 0.1);
     border-radius: 5px;
     text-align: left;
     padding: 20px 20px;
-    height: 150px;
+    height: 170px;
     width: 200px;
 
 }
 
 .donation-plan p {
-    font-size: 8px;
+    font-size: 10px;
+    color: #707070;
+
 
 }
 
@@ -144,7 +145,7 @@ input {
     border-radius: 5px;
     text-align: left;
     padding: 20px 20px;
-    height: 150px;
+    height: 170px;
     width: 200px;
 }
 
@@ -153,6 +154,65 @@ input {
     border-radius: 5px;
     text-align: left;
     padding: 20px 20px;
-    height: 150px;
+    height: 170px;
     width: 200px;
+}
+
+/* Lives depends on donation  */
+.live-depends-area {
+    display: flex;
+    justify-content: center;
+}
+
+.half-width {
+    width: 50%;
+    text-align: center;
+    padding: 50px 10%;
+    text-align: left;
+}
+
+.half-width h2 {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.half-width p {
+    font-size: 12px;
+    color: #707070;
+
+}
+
+.half-width img {
+    height: 300px;
+    width: 400px;
+}
+
+/* need-survive-area */
+.need-survive-area {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.half-width {
+    width: 50%;
+    text-align: center;
+    padding: 50px 10%;
+    text-align: left;
+}
+
+.half-width h2 {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.half-width p {
+    font-size: 12px;
+    color: #707070;
+
+}
+
+.half-width img {
+    height: 300px;
+    width: 400px;
 }
