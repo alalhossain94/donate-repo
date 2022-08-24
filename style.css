@@ -13,7 +13,6 @@ body {
     height: 400px;
     text-align: center;
     padding: 100px 200px 100px 200px;
-
 }
 
 h1 {
@@ -36,7 +35,6 @@ button {
     border-radius: 2px;
     border: none;
     padding: 10px 15px;
-
 }
 
 /* Donate Today section */
@@ -61,7 +59,6 @@ h2 {
     display: flex;
     justify-content: center;
     margin-bottom: 30px;
-
 }
 
 .donation-amount div {
@@ -89,15 +86,12 @@ h2 {
     text-align: center;
     width: 500px;
     margin-bottom: 15px;
-
 }
 
 /* donation plan section */
 .donate-plan-area {
     text-align: center;
     padding: 50px 10%;
-
-
 }
 
 .donate-plan-area p {
@@ -109,7 +103,6 @@ h2 {
     display: flex;
     justify-content: center;
     justify-content: space-around;
-
 }
 
 #food-donation {
@@ -119,27 +112,20 @@ h2 {
     padding: 20px 20px;
     height: 170px;
     width: 200px;
-
 }
 
 .donation-plan p {
     font-size: 10px;
     color: #707070;
-
-
 }
 
 .donation-plan h3 {
-    font-size: 12px;
-
-
+    font-size: 12px
 }
 
 .donation-plan img {
     height: 50px;
     width: 50px;
-
-
 }
 
 #shelter-donation {
@@ -173,12 +159,9 @@ h2 {
     text-align: left;
 }
 
-
-
 .half-width p {
     font-size: 12px;
     color: #707070;
-
 }
 
 .half-width img {
@@ -200,12 +183,9 @@ h2 {
     text-align: left;
 }
 
-
-
 .half-width p {
     font-size: 12px;
     color: #707070;
-
 }
 
 .half-width img {
@@ -239,9 +219,6 @@ h2 {
     background-color: rgba(194, 187, 187, 0.788);
     padding: 12px 10px 12px 5px;
     border-radius: 2px;
-
-
-
 }
 
 /* Footer Style */
